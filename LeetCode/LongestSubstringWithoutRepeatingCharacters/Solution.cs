@@ -1,4 +1,4 @@
-﻿namespace DefaultNamespace
+﻿namespace LongestSubstringWithoutRepeatingCharacters
 {
     public class Solution
     {
