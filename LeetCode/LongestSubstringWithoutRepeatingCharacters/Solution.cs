@@ -1,4 +1,7 @@
-﻿namespace LongestSubstringWithoutRepeatingCharacters
+﻿using System.Collections.Generic;
+using System.Linq;
+
+namespace LongestSubstringWithoutRepeatingCharacters
 {
     public class Solution
     {

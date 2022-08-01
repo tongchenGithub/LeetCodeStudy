@@ -8,6 +8,7 @@ namespace BinarySearch
         {
             return false;
         }
+
         public int FirstBadVersion(int n)
         {
             var begin = 0;
@@ -21,6 +22,7 @@ namespace BinarySearch
                     {
                         return index + 1;
                     }
+
                     end = index - 1;
                 }
                 else

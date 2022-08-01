@@ -1,4 +1,8 @@
-﻿/**
+﻿using System.Collections.Generic;
+
+namespace DepthFirstSearch.DepthFirstSearch
+{
+    /**
  * Definition for a binary tree node.
  * public class TreeNode {
  *     public int val;
@@ -11,20 +15,22 @@
  *     }
  * }
  */
-namespace DFS
-{
-    public class TreeNode { 
+    public class TreeNode
+    {
         public int val;
         public TreeNode left;
-        public TreeNode right; 
-        public TreeNode(int val=0, TreeNode left=null, TreeNode right=null) {
-                 this.val = val;
-                 this.left = left;
-                 this.right = right;
+        public TreeNode right;
+
+        public TreeNode(int val = 0, TreeNode left = null, TreeNode right = null)
+        {
+            this.val = val;
+            this.left = left;
+            this.right = right;
         }
     }
-    
-    public class Solution {
+
+    public class Solution
+    {
         public IList<double> AverageOfLevels(TreeNode root)
         {
             var ret = new List<double>();
@@ -41,7 +47,7 @@ namespace DFS
             double totalNum = 0;
 
             var nodeList = new List<TreeNode>();
-                
+
             foreach (var node in nodes)
             {
                 if (node.left != null)
@@ -67,5 +73,4 @@ namespace DFS
             }
         }
     }
-
 }
