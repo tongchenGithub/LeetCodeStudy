@@ -38,6 +38,7 @@
         <Reference Include="System.Xml" />
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="3Sum\Solution.cs" />
         <Compile Include="BinarySearch\Solution.cs" />
         <Compile Include="DepthFirstSearch\Solution.cs" />
         <Compile Include="LongestSubstringWithoutRepeatingCharacters\Solution.cs" />
