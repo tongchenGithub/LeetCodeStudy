@@ -45,6 +45,8 @@
     <Compile Include="LongestSubstringWithoutRepeatingCharacters\Solution.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SearchInsertPosition\Solution.cs" />
+    <Compile Include="ZigzagConversion\Solution.cs" />
+    <Compile Include="滑动窗口的最大值\Solution.cs" />
     <Compile Include="稀疏相似度\Solution.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
